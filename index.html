@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="queries.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <section class="hero-section">
+      <header class="header-container container grid grid--header--cols">
+        <!-- <img src="imgs/OkieFood.png" alt="logo" class="logo" /> -->
+        <a href="" class="logo-link">
+          <p class="paragraph-logo">
+            OkieFood
+            <span
+              ><ion-icon name="fast-food-outline" class="logo-icon"></ion-icon
+            ></span>
+          </p>
+        </a>
+
+        <!-- <div class="header-navs"> -->
+
+        <nav class="main-nav">
+          <ul class="nav-list">
+            <li>
+              <form>
+                <span>
+                  <ion-icon
+                    name="location-outline"
+                    class="location-logo"
+                  ></ion-icon
+                ></span>
+
+                <select id="select-where" name="select-where" required>
+                  <option value="">Choose current city:</option>
+                  <option value="lagos">Lagos</option>
+                  <option value="asaba">Asaba</option>
+                  <option value="ibadan">Ibadan</option>
+                  <option value="abuja">Abuja</option>
+                  <option value="abraka">Abraka</option>
+                </select>
+              </form>
+            </li>
+            <li3><a href="" class="nav-link">Meals</a></li3>
+            <li><a href="" class="nav-link">Delivery</a></li>
+            <li><a href="" class="nav-link">Our services</a></li>
+            <li><a href="" class="nav-link">Contact Us</a></li>
+            <li><a href="" class="nav-link">Cart</a></li>
+          </ul>
+        </nav>
+        <!-- </div> -->
+
+        <button class="btn-mobile-nav">
+          <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+          <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+        </button>
+      </header>
+
+      <div class="hero-container">
+        <div class="hero-container-inner">
+          <h1 class="hero-paragragh">Get your meals delivered on time!</h1>
+
+          <!-- <a href="#" class="btn">Start eating well</a> -->
+        </div>
+      </div>
+    </section>
+
+    <main>
+      <section class="section-meals" id="meals">
+        <div class="container center-text">
+          <span class="subheading">Meals</span>
+          <h2 class="heading-secondary">Your everyday affordable meals!</h2>
+        </div>
+
+        <div class="container grid grid--3--cols">
+          <div class="meal">
+            <img
+              src="imgs/meals/3-REFUEL-SPICY-RICE-MEAL.jpg"
+              alt=""
+              class="meal-img"
+            />
+            <div class="meal-content">
+              <div class="meal-tags">
+                <span class="tag">Order</span>
+              </div>
+              <p class="meal-title">
+                Jollof rice meal <span class="price">N1,000</span>
+              </p>
+
+              <p class="meal-description">
+                1 piece of fried chicken with our special Jollof Rice.
+              </p>
+            </div>
+          </div>
+
+          <div class="meal">
+            <img
+              src="imgs/meals/2-REFUEL-FRIED-RICE-MEAL.jpg"
+              alt=""
+              class="meal-img"
+            />
+            <div class="meal-content">
+              <div class="meal-tags">
+                <span class="tag">Order</span>
+              </div>
+              <p class="meal-title">
+                Fried rice meal <span class="price">N1,500</span>
+              </p>
+              <p class="meal-description">
+                1 piece of fried chicken with fried rice.
+              </p>
+            </div>
+          </div>
+          <div class="meal">
+            <img
+              src="imgs/meals/5-REFUEL-DODO-MEAL.jpg"
+              alt=""
+              class="meal-img"
+            />
+            <div class="meal-content">
+              <div class="meal-tags">
+                <span class="tag">Order</span>
+              </div>
+              <p class="meal-title">
+                Jollof rice &amp; plantain
+                <span class="price">N2,000</span>
+              </p>
+              <p class="meal-description">
+                1 piece of chicken with our special Jollof Rice, and fried
+                plantain.
+              </p>
+            </div>
+          </div>
+          <div class="meal">
+            <img
+              src="imgs/meals/EGGSTAR-SPAGHETTI.png"
+              alt=""
+              class="meal-img"
+            />
+            <div class="meal-content">
+              <div class="meal-tags">
+                <span class="tag">Order</span>
+              </div>
+              <p class="meal-title">
+                Spaghetti meal<span class="price">N1,600</span>
+              </p>
+              <p class="meal-description">
+                1 piece of egg with spaghetti and our special egg sauce.
+              </p>
+            </div>
+          </div>
+          <div class="meal">
+            <img
+              src="imgs/meals/ChickenRepublic_RefuelRiceBeansMeal.jpg"
+              alt=""
+              class="meal-img"
+            />
+            <div class="meal-content">
+              <div class="meal-tags">
+                <span class="tag">Order</span>
+              </div>
+              <p class="meal-title">
+                Rice &amp; beans meal<span class="price">N1,800</span>
+              </p>
+              <p class="meal-description">
+                Rice &amp; Beans, 1 piece of chicken and our special sauce.
+              </p>
+            </div>
+          </div>
+          <div class="meal">
+            <img
+              src="imgs/meals/ChickenRepublic_NewlyImprovedMoinMoin.jpg"
+              alt=""
+              class="meal-img"
+            />
+            <div class="meal-content">
+              <div class="meal-tags">
+                <span class="tag">Order</span>
+              </div>
+              <p class="meal-title">Moi Moi<span class="price">N800</span></p>
+              <p class="meal-description">1 small plate of moi moi with egg.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="container see-all">
+          <a href="" class="">See all meals &rarr;</a>
+        </div>
+      </section>
+
+      <section class="section-popular">
+        <div class="container center-text">
+          <span class="subheading">OUR DAILY FLASH SALES</span>
+          <h2 class="heading-secondary">Get food at discounted rate today</h2>
+        </div>
+        <div class="container carousel-center">
+          <div class="carousel" data-carousel>
+            <button class="btn btn--left" data-carousel-button="prev">
+              <ion-icon name="chevron-back-outline" class="btn-icon"></ion-icon>
+            </button>
+
+            <button class="btn btn--right" data-carousel-button="next">
+              <ion-icon
+                name="chevron-forward-outline"
+                class="btn-icon"
+              ></ion-icon>
+            </button>
+
+            <ul data-slides>
+              <li class="slide" data-active>
+                <img
+                  src="imgs/banner-1.jpg"
+                  alt="discount sale banner-2"
+                  class="popular-img active"
+                />
+              </li>
+
+              <li class="slide">
+                <img
+                  src="imgs/banner-2.jpg"
+                  alt="discount sale banner-2"
+                  class="popular-img active"
+                  id="img2"
+                />
+              </li>
+
+              <li class="slide">
+                <img
+                  src="imgs/banner-3.jpg"
+                  alt="discount sale banner-3"
+                  class="popular-img active"
+                  id="img3"
+                />
+              </li>
+            </ul>
+            <!-- 
+            <img
+              src="imgs/meals/PASTA-SALAD-DARK.jpg"
+              alt=""
+              id="img4"
+              class="hidden"
+            /> -->
+          </div>
+        </div>
+      </section>
+
+      <section class="contact">
+        <div class="container contact-container center-text">
+          <h2 class="heading-secondary-contact">Reach out to us!</h2>
+          <p class="contact-paragraph">
+            Choose one of the following options to contact us
+          </p>
+
+          <a href="" class="location-btn">View our locations &rarr;</a>
+
+          <div class="contact-box">
+            <div class="contacts">
+              <ion-icon name="mail-outline" class="contact-logo"></ion-icon>
+
+              <a href="mailto:obedokiemute93@gmail.com" class="contact-link"
+                >obedokiemute93@gmail.com</a
+              >
+            </div>
+
+            <div class="contacts">
+              <ion-icon name="call-outline" class="contact-logo"></ion-icon>
+
+              <a href="tel:08124192833" class="contact-link">+2347025402116</a>
+            </div>
+
+            <div class="contacts">
+              <ion-icon name="logo-whatsapp" class="contact-logo"></ion-icon>
+
+              <a
+                href="https://api.whatsapp.com/send/?phone=+2348124192833&text=Hello+Okiemute,+Hello,+I+want+to+make+an+order&type=phone_number&app_absent=0"
+                target="_blank"
+                class="contact-link"
+                >+2348124192833</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="section-footer">
+      <div class="footer-container">
+        <p class="copy-text">OkieFood &copy; <span>2023</span></p>
+
+        <nav>
+          <ul class="footer-links">
+            <li><a href="#">Privacy &amp; Legal</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">News</a></li>
+            <li><a href="#">Locations</a></li>
+            <li><a href="#">Forums</a></li>
+          </ul>
+        </nav>
+      </div>
+    </footer>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+    <script src="index.js"></script>
+  </body>
+</html>
